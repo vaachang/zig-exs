@@ -1,1 +1,4 @@
 notice.txt
+.zig-cache/
+zig-out/
+*.o
