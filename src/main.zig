@@ -4,6 +4,9 @@ const Io = std.Io;
 const zig_exs = @import("zig_exs");
 
 pub fn main(init: std.process.Init) !void {
+    // Print Hello, world!
+    std.debug.print("Hello, world! Zig");
+
     // Prints to stderr, unbuffered, ignoring potential errors.
     std.debug.print("All your {s} are belong to us.\n", .{"codebase"});
 
